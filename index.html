@@ -15,9 +15,40 @@
                 }
     </style>
     
-    <h3><span style=”margin-right: 5em;”></span>
-      　Contents:</h3>
-    
+    <h2><span style=”margin-right: 5em;”></span>
+      　<span>01</span>CONTENTS</h2>
+    <style> h2 {
+                position: relative;
+                overflow: hidden;
+                padding: 1.5rem 2rem 1.5rem 130px;
+                border: 2px solid #000;
+                }
+
+             h2:before {
+                position: absolute;
+                top: -150%;
+                left: -100px;
+                width: 200px;
+                height: 300%;
+                content: '';
+                -webkit-transform: rotate(25deg);
+                transform: rotate(25deg);
+                background: #000;
+                }
+
+             h2 span {
+                font-size: 40px;
+                font-size: 4rem;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                display: block;
+                padding-top: 3px;
+                padding-left: 16px;
+                color: #fff;
+                }
+    </style>  
         <h4>
          ・<a href="profile.html">Profile</a><br>
          ・<a href="pycode.html">Code</a><br>
